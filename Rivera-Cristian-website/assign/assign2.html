@@ -1,0 +1,67 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+    <title></title>
+    <meta charset="utf-8"> 
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    
+</head>
+<body>
+    <div class="container-fluid">
+        <div id="background">
+            <ul class="nav">
+                <div class="logo">
+                    <a href="Index.html">Cristian</a>
+                </div>
+                <li><a href="/Index.html">Home</a></li>
+                <li><a>Assignment</a>
+                    <ul>
+                        <li><a href="assign1.html">assignment1</a></li>
+                        <li><a href="assign2.html">assignment2</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <div class="banner">
+                <img class="banner-image" src="/img/a2banner.png">
+            </div>
+            <h1 id="ah1">Assignment 2</h1>
+            <div id="assign2">
+                <input id="name" type="text" placeholder="Input name" />
+                <input id="email" placeholder="Input email" />
+                <input id="age" placeholder="Input age" />
+                <select id="borough">
+                    <option>Bronx</option>
+                    <option>Manhattan<option>
+                    <option>Queen</option>
+                    <option>Staten Island</option>
+                    <option>Brooklyn</option>
+                </select>
+                <button id="submit">Submit</button>
+                <div id="message"></div>
+            </div>
+        </div>
+    </div>
+    <script>
+        submit.onclick = function() {
+	    var name = document.getElementById("name").value;
+	    var email = document.getElementById("email").value;
+        var age = document.getElementById("age").value;
+	    var borough = document.getElementById("borough").value;
+	    alert("Thank you for submitting your first form!");
+	    var message = document.getElementById("message");
+	    message.innerHTML = "Hello " + name + " you're " + age + " year old " + " from " 
+	    + borough + ", welcome to my website.";
+        message.style.backgroundColor = "pink";
+        document.getElementById("assign2").style.backgroundColor = "green";
+        document.body.style.backgroundColor = "black";
+        document.getElementById("ah1").style.backgroundColor = "blue"
+        document.getElementById("ah1").style.textShadow = "1px 1px 4px white";
+        document.getElementById("ah1").style.border = "solid white";
+        };
+    </script>
+</body>
+</html>

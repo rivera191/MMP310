@@ -1,0 +1,156 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family:sans-serif;
+    background: gainsboro;
+}
+/*------Navigation------*/
+.nav {
+    background-color: white;
+    color: black;
+    list-style: none;
+    text-align: right;
+    padding: 0px;
+    border-top: double;
+    border-bottom: double;
+
+}
+.nav > li {
+    display: inline-block;
+    font-size: 15px;
+}
+.nav > li > a {
+    text-decoration: none;
+    color: black;
+}
+.nav > li > a:hover {
+    color: #c1c1c1;
+}
+ul li ul{
+    display:none;
+    position:absolute;
+    left: 0px;
+    margin-top: 3px;
+    margin-left: -40px;
+}
+ul li ul li{
+    display:block;
+    background-color: white;
+    width:110px;
+    margin-top:-3px;
+    border-left:double black;
+    border-right:double black;
+    border-bottom:double black;
+    text-align: center;
+    padding: 10px;
+}
+ul li:hover ul{
+    display:inline-block;
+}
+.logo{
+	color:black;
+	float: left;
+    margin-top: 10px;
+    padding-left:25px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.logo > a {
+     text-decoration: none;
+     color: black;
+
+}
+.banner {
+    width: 100%;
+    display: block;
+    border-bottom: double;
+    
+}
+.banner> .banner-image {
+    width: 100%;
+    display: block;
+    margin: 0px;
+}
+h1{
+    padding: 10px 0px;
+    text-align: center;
+    margin-top: 0px;
+    border-bottom: solid;
+}
+#me{
+    float: left;
+    width: 200px;
+    margin:20px 10px;
+    overflow: auto;
+}
+p{
+    overflow: auto;
+    width:800px;
+    height:200px;
+    margin:30px auto;
+    padding: 20px;
+    color: black;
+}
+h2{
+    border-top:solid;
+    border-bottom: solid;
+    padding: 10px 0px;
+    text-align: center;
+}
+iframe{
+    margin: 20px auto;
+    display: block;
+}
+
+#ecuador{
+    margin-top: -10px;
+    padding-bottom: 20px;
+}
+#ecuador p{
+    text-align: center;
+    height: auto;
+    width: 500px;
+    margin: -10px auto;
+}
+
+#background{
+    width:1100px;
+    margin:0px auto;
+    background: white;
+}
+/*-------- Assign 1 CSS ---------*/
+img{
+    display: block;
+    margin: 20px auto;
+}
+#assign1{
+    padding: 20px;
+}
+#assign1 p{
+    width: 500px;
+    height: auto;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.pA1{
+    width: 500px;
+    height: 120px;
+}
+/*-------- Assign 2 CSS ---------*/
+#assign2{
+    width: 800px;
+    margin: 0px auto;
+}
+#assign2 input{
+    width: 200px;
+    margin: 0px auto;
+}
+#assign2 select{
+    width:  185px;
+}
+#assign2 button{
+    width: 97px;
+    margin: 10px auto;
+    display: block;
+}
